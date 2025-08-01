@@ -75,8 +75,10 @@ class Node{
             current=current.next;
             previous=previous.next;
         }
+    
     }
 
+    
     public void insertFirst(int data)
     {
         Node newNode = new Node(data);
