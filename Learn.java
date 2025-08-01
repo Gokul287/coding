@@ -44,9 +44,25 @@
 
 // STRING EXAMPLE
 
+// public class Learn{
+//     public static void main(String[] args) {
+//         String s1 = new String("Gokul");
+//         System.out.println(s1);
+//     }
+// }
+
+
+
+//######################################
+class Human
+{
+    public Human()
+    {
+
+    }
+}
 public class Learn{
     public static void main(String[] args) {
-        String s1 = new String("Gokul");
-        System.out.println(s1);
+        
     }
 }
