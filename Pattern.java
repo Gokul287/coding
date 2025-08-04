@@ -1,28 +1,34 @@
+
 import java.util.*;
-public class Pattern{
+
+// TAKE U FORWARD PATTERN PRINTING SHEET AND MORE
+// https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/
+public class Pattern {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n=sc.nextInt();
-        invertedTrianglePattern2(n);
+        int n = sc.nextInt();
+        diamondPattern(n);
         System.out.println("Pattern Printing");
     }
-    
+
     // This method prints a SQUARE PATTERN of stars
-        // public static void squarePattern(int n)
-        // {
-        //     for(int i=0;i<n;i++)
-        //     {
-        //         for(int j=0;j<n;j++)
-        //         {
-        //             System.out.print(" * ");
-        //         }
-        //         System.out.println();
-        //     }
-        // }
+    // public static void squarePattern(int n)
+    // {
+    //     for(int i=0;i<n;i++)
+    //     {
+    //         for(int j=0;j<n;j++)
+    //         {
+    //             System.out.print(" * ");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
+
 
     //################################################
-    
-    
+
+
     // RIGHT ANGLE TRIANGLE PATTERN
     // public static void trianglePattern(int n)
     // {
@@ -39,8 +45,8 @@ public class Pattern{
 
     //################################################
 
-    // TRIANGLE NUMBER PATTERN 1
 
+    // TRIANGLE NUMBER PATTERN 1
     //  public static void trianglePattern1(int n)
     // {
     //     for(int i=0;i<n;i++)
@@ -54,10 +60,10 @@ public class Pattern{
     // }
 
 
-     //################################################
+    //################################################
+
 
     // TRIANGLE NUMBER PATTERN 2
-
     //  public static void trianglePattern2(int n)
     // {
     //     for(int i=0;i<n;i++)
@@ -71,11 +77,10 @@ public class Pattern{
     // }
 
 
-
     //################################################
 
-    // INVERTED TRIANGLE PATTERN 
 
+    // INVERTED TRIANGLE PATTERN 
     //  public static void invertedTrianglePattern(int n)
     // {
     //     for(int i=n;i>0;i--)
@@ -91,8 +96,8 @@ public class Pattern{
 
     //################################################
 
-    // INVERTED TRIANGLE NUMBER PATTERN 1
 
+    // INVERTED TRIANGLE NUMBER PATTERN 1
     //  public static void invertedTrianglePattern1(int n)
     // {
     //     for(int i=n;i>0;i--)
@@ -106,11 +111,10 @@ public class Pattern{
     // }
 
 
-
     //################################################
 
-    // INVERTED TRIANGLE NUMBER PATTERN 2
 
+    // INVERTED TRIANGLE NUMBER PATTERN 2
     //  public static void invertedTrianglePattern2(int n)
     // {
     //     for(int i=n;i>0;i--)
@@ -124,7 +128,72 @@ public class Pattern{
     // }
 
 
+    //################################################
 
+
+    // PYRAMID PATTERN
+    //  public static void pyramidPattern(int n)
+    // {
+    //     for(int i=1;i<=n;i++)
+    //     {
+    //         for(int s=0;s<n-i;s++)
+    //         {
+    //             System.out.print(" ");
+    //         }
+    //         for(int j=0;j<(2*i)-1;j++)
+    //         {
+    //             System.out.print("*");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
+
+
+    //################################################
+
+
+    // INVERTED PYRAMID PATTERN
+    //  public static void invertedPyramidPattern(int n)
+    // {
+    //     for(int i=n;i>0;i--)
+    //     {
+    //         for(int s=0;s<n-i;s++)
+    //         {
+    //             System.out.print(" ");
+    //         }
+    //         for(int j=0;j<(2*i)-1;j++)
+    //         {
+    //             System.out.print("*");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
+
+
+    //################################################
+
+
+    // DIAMOND PATTERN
+    // public static void diamondPattern(int n) {
+    //     for (int i = 1; i <= n; i++) {
+    //         for (int s = 0; s < n - i; s++) {
+    //             System.out.print(" ");
+    //         }
+    //         for (int j = 0; j < (2 * i) - 1; j++) {
+    //             System.out.print("*");
+    //         }
+    //         System.out.println();
+    //     }
+
+    //     for (int i = n; i > 0; i--) {
+    //         for (int s = 0; s < n - i; s++) {
+    //             System.out.print(" ");
+    //         }
+    //         for (int j = 0; j < (2 * i) - 1; j++) {
+    //             System.out.print("*");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
 
 }
-
