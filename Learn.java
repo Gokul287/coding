@@ -1,7 +1,8 @@
 
 // CLASS AND OBJECT
 
-
+import java.util.*;
+import java.lang.*;
 // public class Learn {
 //     public static void main(String arr[]) {
 //         Calculate obj = new Calculate();
@@ -54,15 +55,54 @@
 
 
 //######################################
-class Human
-{
-    public Human()
-    {
 
-    }
-}
-public class Learn{
-    public static void main(String[] args) {
-        
-    }
-}
+
+// STATIC VARIABLE EXAMPLE
+// class Human
+// {
+//    static String name;
+//    public Human(String name)
+//    {
+//     this.name =name;
+//    }
+//    public String getName()
+//    {
+//     return this.name;
+//    }
+// }
+// public class Learn{
+//     public static void main(String[] args) {
+//         Human obj = new Human("Gokul");
+//         Human obj1 = new Human("Jana");
+//         Human.name="Cristiano";
+//         System.out.println(obj.getName());
+//     }
+// }
+
+
+//########################################
+// PRIME NUMBER EXAMPLE
+// class Learn{
+//     public static void main(String[] args) {
+//         int a=20;
+
+//         for(int i=1;i<=a;i++)
+//         {
+//             if(isPrime(i))
+//             {
+//                 System.out.print(i+" ");
+//             }
+//         }
+//     }
+
+//     public static boolean isPrime(int n)
+//     {
+          
+//         for(int i=2;i<=Math.sqrt(n);i++)
+//         {
+//             if(n%i==0)
+//             return false;
+//         }
+//         return true;
+//     }
+// }
