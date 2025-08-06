@@ -8,7 +8,7 @@ public class Pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        characterReversePyramidPattern(n);
+        diamondSpacePattern(n);
         System.out.println("Pattern Printing");
     }
 
@@ -379,8 +379,58 @@ public class Pattern {
             
     //         System.out.println();
     //     }
-            
-        
     // }
+
+    
+      //################################################
+
+      // CHARACTER TRIANGLE REVERSE PATTERN(18 TH TUF PATTERN)
+
+    //  public static void characterTriangleReversePattern(int n)
+    //  {
+    //     char c= (char)('A'+n-1);
+    //     for(int i=0;i<n;i++)
+    //     {
+    //         c=(char)('A'+n-i-1);
+    //         for(int j=0;j<i+1;j++)
+    //         {
+    //             System.out.print(c+++" ");
+    //         }
+    //         System.out.println();
+    //     }
+    //  }
+
+
+    //################################################
+
+    // DIAMOND SPACE PATTERN (TUF 19TH PROBLEM)
+    public static void diamondSpacePattern(int n)
+    {   
+        for(int i=0;i<n;i++)
+        {
+            
+                if(i==0 || i==n-1){
+                for(int k=0;k<n;k++)
+                System.out.print(" * ");
+                }
+                else
+                {
+                    for(int k=0;k<(n/2)-i;k++)
+                    {
+                        System.out.print(" * ");
+                    }
+                    for(int k1=0;k1<i;k1++)
+                    {
+                        System.out.print("  ");
+                    }
+                    for(int k=0;k<(n/2)-i;k++)
+                    {
+                        System.out.print(" * ");
+                    }                          
+                }
+                System.out.println();
+            
+        }  
+     }
 
 }
