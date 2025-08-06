@@ -1,7 +1,6 @@
 
 // CLASS AND OBJECT
 
-import java.util.*;
 import java.lang.*;
 // public class Learn {
 //     public static void main(String arr[]) {
@@ -105,4 +104,29 @@ import java.lang.*;
 //         }
 //         return true;
 //     }
+// }
+
+//###########################################
+// PALINDROME EXAMPLE
+// class Learn{
+//     public static void main(String a[])
+//     {
+//         String s="madaw";
+//         System.out.print(isPalindrome(s));
+//     }
+
+//     public static boolean isPalindrome(String s)
+//     {
+//         int start =0, end=s.length()-1;
+
+//         while(start<end ){
+//             if(s.charAt(end) != s.charAt(start))
+//             {
+//                 return false;
+//             }
+//             start++;
+//             end--;
+//         }  
+//         return true;
+//      }
 // }
