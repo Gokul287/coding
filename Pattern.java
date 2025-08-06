@@ -401,36 +401,6 @@ public class Pattern {
     //  }
 
 
-    //################################################
-
-    // DIAMOND SPACE PATTERN (TUF 19TH PROBLEM)
-    public static void diamondSpacePattern(int n)
-    {   
-        for(int i=0;i<n;i++)
-        {
-            
-                if(i==0 || i==n-1){
-                for(int k=0;k<n;k++)
-                System.out.print(" * ");
-                }
-                else
-                {
-                    for(int k=0;k<(n/2)-i;k++)
-                    {
-                        System.out.print(" * ");
-                    }
-                    for(int k1=0;k1<i;k1++)
-                    {
-                        System.out.print("  ");
-                    }
-                    for(int k=0;k<(n/2)-i;k++)
-                    {
-                        System.out.print(" * ");
-                    }                          
-                }
-                System.out.println();
-            
-        }  
-     }
+  
 
 }
