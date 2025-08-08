@@ -2,7 +2,7 @@ import java.util.*;
 class SelectionSort{
     public static void main(String a[])
     {
-        Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
         int n=5;
         int arr[] =  new int[n];
         for(int i=0;i<n;i++)
@@ -19,7 +19,7 @@ class SelectionSort{
     {
         boolean swapped = false;
         for(int i=0;i<n;i++)
-        {
+        {    
             int minIndex=i;
             for(int j=i+1;j<n;j++)
             {

@@ -8,9 +8,10 @@ public class Pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        diamondSpacePattern(n);
+        //diamondSpacePattern(n);
         System.out.println("Pattern Printing");
     }
+  }
 
     // This method prints a SQUARE PATTERN of stars
     // public static void squarePattern(int n)
@@ -403,4 +404,4 @@ public class Pattern {
 
   
 
-}
+//}
