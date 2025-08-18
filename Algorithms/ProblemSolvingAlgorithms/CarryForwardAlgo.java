@@ -1,5 +1,8 @@
-import java.util.*;
-public class Algorithm{
+// package Algorithms.ProblemSolvingAlgorithms.CarryForwardAlgo;
+
+import java.util.Scanner;
+
+public class CarryForwardAlgo {
     public static void main(String ar[])
     {
         Scanner sc = new Scanner(System.in);

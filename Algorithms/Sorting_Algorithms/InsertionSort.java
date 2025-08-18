@@ -1,3 +1,4 @@
+package Algorithms.Sorting_Algorithms;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -28,5 +29,5 @@ public class InsertionSort {
             }
             arr[j+1] = key;
         }
-    }
+    }g
 }

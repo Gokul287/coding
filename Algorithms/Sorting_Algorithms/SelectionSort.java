@@ -1,3 +1,4 @@
+package Algorithms.Sorting_Algorithms;
 import java.util.*;
 class SelectionSort{
     public static void main(String a[])
