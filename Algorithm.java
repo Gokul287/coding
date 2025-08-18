@@ -13,6 +13,10 @@ public class Algorithm{
         System.out.println(count);
     }
 
+    // This function implements the carry forward technique 
+    // Example problem arr[]={a,b,c,a,g,k,a,g,g} 
+    // i<j && arr[i]=='a' && arr[j]=='g' return the count of pairs (i,j) such that i<j and arr[i]=='a' and arr[j]=='g'
+    // The output for the example problem will be 8
     public static int carryForwardtechnique(char arr[], int n)
     {
         int x=0,y=0;
