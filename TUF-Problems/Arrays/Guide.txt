@@ -1,9 +1,12 @@
 Arrays problems with respect to numbers.
 
 P1. Largest Element in an Array.
-P2. Second Largest Element in an Array.
-P3. Check if the array is sorted and rotated(Leetcode : 1752)
-P4. Remove Duplicates from Sorted Array(Inplace) (leetcode : 26)
-P5. Left Rotate Array (Leetcode: 189)
-P6. Move Zeroes (Leetcode : 283)
+P2. Second Largest Element in an Array. (two pointer)
+P3. Check if the array is sorted and rotated(Leetcode : 1752) (two pointer)
+P4. Remove Duplicates from Sorted Array(Inplace) (leetcode : 26) (Two pointer)
+P5. Left Rotate Array (Leetcode: 189) 
+P6. Move Zeroes (Leetcode : 283) (two pointer)
 P7. Linear Search.
+P8. Union and intersection of two sorted array in sorted order. (two pointer)
+P9. Find missing number in an array. (Leetcode : 268) (using formula)
+P10. Maximum Consecutive Ones (Leetcode : 485)
