@@ -4,3 +4,4 @@ P1. Largest Element in an Array.
 P2. Second Largest Element in an Array.
 P3. Check if the array is sorted and rotated(Leetcode : 1752)
 P4. Remove Duplicates from Sorted Array(Inplace) (leetcode : 26)
+P5. Left Rotate Array (Leetcode: 189)
