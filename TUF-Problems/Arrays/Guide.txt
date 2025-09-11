@@ -1,5 +1,7 @@
 Arrays problems with respect to numbers.
 
+Easy
+
 P1. Largest Element in an Array.
 P2. Second Largest Element in an Array. (two pointer)
 P3. Check if the array is sorted and rotated(Leetcode : 1752) (two pointer)
@@ -10,3 +12,6 @@ P7. Linear Search.
 P8. Union and intersection of two sorted array in sorted order. (two pointer)
 P9. Find missing number in an array. (Leetcode : 268) (using formula)
 P10. Maximum Consecutive Ones (Leetcode : 485)
+P11. Find the number that appears once, and other numbers twice. (Leetcode : 136)
+P12. Longest subarray with given sum K(positives)
+P13. Longest subarray with sum K (Positives + Negatives)

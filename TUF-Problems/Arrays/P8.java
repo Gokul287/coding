@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// Union and Intersection of two sorted arrays in sorted order
 public class P8{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,6 +18,7 @@ public class P8{
             arr2[i] = sc.nextInt();
         }     
         union(arr1, arr2);
+        //interSection(arr1, arr2);
     }
     public static void union(int arr1[], int arr2[])
     {
@@ -70,6 +72,42 @@ public class P8{
         for(int r=0;r<k;r++)
         {
             System.out.print(unionArray[r]+" ");
+        }
+    }
+
+
+    // Intersection of two sorted arrays
+    public static void interSection(int arr1[], int arr2[])
+    {
+        int n1=arr1.length;
+        int n2=arr2.length;
+        int[] intersectionArray = new int[Math.min(n1, n2)];
+        int k = 0;
+        int i=0;
+        int j=0;
+        while(i<n1 && j<n2)
+        {
+            if(arr1[i]<arr2[j])
+            {
+                i+=1;
+            }
+            else if(arr1[i]>arr2[j])
+            {
+                j+=1;
+            }
+            else{
+                if(k==0 || intersectionArray[k-1] != arr1[i])
+                {
+                    intersectionArray[k++]=arr1[i];
+                }
+                i+=1;
+                j+=1;
+            }
+        }
+        System.out.println("The intersection of the two arrays is:");
+        for(int r=0;r<k;r++)
+        {
+            System.out.print(intersectionArray[r]+" ");
         }
     }
 }
