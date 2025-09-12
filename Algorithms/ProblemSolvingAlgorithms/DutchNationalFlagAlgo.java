@@ -18,7 +18,7 @@ public class DutchNationalFlagAlgo {
 
         int left=0,mid=0,right=n-1;
 
-       while(mid<n)
+       while(mid<=right)
        {
         if(arr[mid] == 0 && left<=mid)
         {
