@@ -15,3 +15,10 @@ P10. Maximum Consecutive Ones (Leetcode : 485)
 P11. Find the number that appears once, and other numbers twice. (Leetcode : 136)
 P12. Longest subarray with given sum K(positives)
 P13. Longest subarray with sum K (Positives + Negatives)
+
+
+Medium.
+
+P14. Two Sum (Leetcode : 1)
+P15. Sort Colors 0's,1's,2's (Leetcode : 75) (Dutch National flag Algorithm)
+P16. Majority Element (Moore's Voting Algorithm (also called the Boyer-Moore Majority Vote Algorithm)) (Leetcode : 169)
