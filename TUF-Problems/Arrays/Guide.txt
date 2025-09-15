@@ -22,3 +22,8 @@ Medium.
 P14. Two Sum (Leetcode : 1)
 P15. Sort Colors 0's,1's,2's (Leetcode : 75) (Dutch National flag Algorithm)
 P16. Majority Element (Moore's Voting Algorithm (also called the Boyer-Moore Majority Vote Algorithm)) (Leetcode : 169)
+P17. Kadane's Algorithm, maximum subarray sum (Leetcode : 53)
+P18. Rearrange Array Elements by Sign(Leetcode : 2149) (Two pointers)
+P19. Next Permutation (Leetcode : 31)
+P20. Leaders in an Array problem (GFG)
+P21. Longest Consecutive Sequence in an Array (Leetcode : 128)
