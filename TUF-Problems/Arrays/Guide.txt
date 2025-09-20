@@ -28,4 +28,14 @@ P19. Next Permutation (Leetcode : 31)
 P20. Leaders in an Array problem (GFG)
 P21. Longest Consecutive Sequence in an Array (Leetcode : 128)
 P22. Set Matrix Zeros (Leetcode : 73)
-P23. Rotate Image (Leetcode :48)
+P23. Rotate Matrix by 90 degrees (Leetcode :48)
+P24. Print the matrix in spiral manner (Leetcode :54)
+P25. Count subarrays with given sum (Leetcode : 560)
+
+
+Hard.
+
+P26. Pascal's Triangle (Leetcode : 118)
+P27. Majority Element II (n/3 times) (Leetcode : 229)
+p28. 3Sum (Leetcode :15)
+P29. 4Sum (Leetcode :18)
